@@ -5,10 +5,6 @@ body {
     background-repeat: space;
     background-position: 100% 75%;
     font-family: "Helvetica", Arial;
-    height: 90%;
-    width: 60%;
-    top: 5%;
-    margin:auto;
 }
 
 #titulo {
@@ -19,11 +15,10 @@ body {
     background-color: rgba(0, 0, 0, .50);
     text-align: left;
     margin: 0 auto;
-    width: 20%;
-    float:left;
+    width: 100;
     position: fixed;
     top: 2cm;
-    left: 0%;
+    left: 25px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     padding: 20px;
@@ -41,19 +36,18 @@ td {
     background-color: rgba(54, 25, 25, .5);
     text-align: left;
     margin: 0 auto;
-    width: 20%;
-    float:right;
-    position:absolute;
+    width: 10%;
+    position: absolute;
     top: 2cm;
     color: white;
-    right: 19px;
+    right: 25px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     padding: 20px;
 }
 
 img.foto_perfil {
-    width: 100%:
+    width: 100px:
 }
 
 #footer {
@@ -64,11 +58,10 @@ img.foto_perfil {
     text-align: left;
     border-radius: 20px;
     padding: 20px;
-    background-color: rgba(12, 10, 15, 0.69);
 }
 
 #contenido {
-    width: 90%;
+    width: 960px;
     margin: 0 auto;
     text-align: center;
 }
@@ -84,14 +77,14 @@ h1#main {
 
 nav ul li {
     /*display: inline-block;*/
-    margin-right: 10%;
+    margin-right: 20px;
     color: hotpink;
     cursor: pointer;
 }
 
 #main {
-    width: 85%;
-    
+    width: 600px;
+    height: auto;
     background-color: rgba(12, 10, 15, 0.69);
     color: rgb(156, 180, 195);
     position: static;
